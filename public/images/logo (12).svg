@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1895" height="300" transform="matrix(1,0,0,1,0,0)">
+  <text font-family="DM Sans" font-size="260" text-anchor="left" x="310" charspacing="20px">
+    <tspan dy="239.20000000000002" x="310">Budgetory</tspan>
+  </text>
+  <path transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,250,40)" d="M40,120L80,120L80,160L40,160ZM80,120L120,120L120,160A0,0,-270,0,1,120,160L80,160ZM120,80L160,80L160,120A0,0,-270,0,1,160,120L120,120ZM120,40L160,40L160,80L120,80ZM120,0L160,0A0,0,90,0,1,160,0L160,40L120,40ZM80,0L120,0L120,40L80,40ZM40,0L80,0L80,40L40,40A0,0,90,0,1,40,40ZM40,80A0,0,90,0,1,40,80L80,80L80,120L40,120ZM80,80L120,80L120,120L80,120ZM40,0L0,80A0,0,-126.86989764584402,0,0,0,80L40,160Z"/>
+</svg>
