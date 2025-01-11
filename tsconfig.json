@@ -1,18 +1,36 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
+    "target": "ES2022",
+    "module": "ESNext",
     "moduleResolution": "bundler",
+    "lib": ["ESNext", "ESNext.array", "DOM", "DOM.Iterable"],
+    "allowJs": true,
+    "jsx": "react",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "useUnknownInCatchVariables": false,
+    "strictPropertyInitialization": true,
+    "noUncheckedIndexedAccess": false, // Is true in tsconfig.strict.json
+    "noImplicitOverride": false, // Ideally it should be true, but then we have to use `override` in React classes
+    "allowArbitraryExtensions": true, // Allow to have file.d.pegjs.ts
+    "skipLibCheck": true, // TODO: disable this in the future. It was only enabled to be able to more easily update to TS 4.8
+    "baseUrl": "../../../../..",
+    "esModuleInterop": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
     "incremental": true,
+    "noEmitOnError": true,
+    "emitDeclarationOnly": true,
+    "noEmit": false,
     "plugins": [
       {
         "name": "next"
